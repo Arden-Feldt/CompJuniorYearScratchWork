@@ -28,9 +28,10 @@ def fractional_knapsack(v, w, B):
     return total_value, fractions
 
 # Example instance
-v = [201, 95, 131, 190, 220, 105, 221, 144, 183, 240, 229, 225, 146, 217, 242, 193, 130, 124]
-w = [23, 10, 16, 51, 29, 18, 22, 14, 27, 13, 22, 94, 51, 12, 3, 10, 14, 5]
-B = 33
+v =  [3, 1, 2]
+w = [2, 1, 4]
+B = 4
+
 
 # Run the fractional knapsack algorithm
 optimal_value, fractions = fractional_knapsack(v, w, B)
